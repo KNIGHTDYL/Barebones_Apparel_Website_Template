@@ -1,0 +1,91 @@
+body{
+    background: rgb(58,58,58);
+    background-image: url(https://i.redd.it/8s4d7fb9i9731.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* HEADER */
+header{
+    background-color: black;
+    background-image: url(https://i.pinimg.com/736x/51/33/60/513360b69a6275b4279c31103b8f6d0c.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+header a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a{
+    background-image: url(https://www.w3schools.com/images/w3lynx_200.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -99999px;
+    top: -50px;
+    width: 65px;
+}
+
+.features{
+    background: white;
+    color: gray;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+
+.features figure:first-child{
+    margin-left: 0px;
+}
+.features figure img{
+    border-radius: 10px;
+    box-shadow: black 0px 5px 8px;
+    margin-bottom: 10px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+/* FOOTER */
+footer{
+    background: rgba(0, 0, 0, 0.812)    ;
+    padding: 20px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    .features{
+        background-color: aqua;
+    }
+}

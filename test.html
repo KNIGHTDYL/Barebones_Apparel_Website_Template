@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page!</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            ul{
+                list-style: none;
+                padding: 0px;
+            }
+            li{
+                display: inline-block;
+            }
+            .feature-box{
+                display: flex;
+            }
+            .feature-box div{
+                width: 100%;
+                margin: 2px;
+            }
+            .feature-box.sales div{
+                background: gray;
+            }
+            .feature-box.closeouts div{
+                background: red;
+            }
+            li:first-child{
+                background: green;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <section class="feature-box sales">
+            <div>Section a</div>
+            <div>Section b</div>
+            <div>Section c</div>
+        </section>
+        <section class="feature-box closeouts">
+            <div>Section d</div>
+            <div>Section e</div>
+        </section>
+    </body>
+</html>
